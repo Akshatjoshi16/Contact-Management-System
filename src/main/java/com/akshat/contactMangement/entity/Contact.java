@@ -14,7 +14,7 @@ public class Contact {
     private String name;
 
     @Column
-    private Long number;
+    private String phoneNumber;
 
     public Long getId() {
         return id;
@@ -32,11 +32,11 @@ public class Contact {
         this.name = name;
     }
 
-    public Long getNumber() {
-        return number;
+    public String getNumber() {
+        return phoneNumber;
     }
 
     public void setNumber(Long number) {
-        this.number = number;
+        this.phoneNumber = phoneNumber;
     }
 }
