@@ -36,7 +36,7 @@ public class Contact {
         return phoneNumber;
     }
 
-    public void setNumber(Long number) {
+    public void setNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 }
